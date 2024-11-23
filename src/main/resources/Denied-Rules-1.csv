@@ -1,0 +1,13 @@
+Backend Value,Disaplay Value,CASE TYPE IN,CASE TYPE NOT IN,REQUEST TYPE IN,REQUEST TYPE NOT IN,LOB IN,LOB NOT IN,APP INSTANCE,DISPLAY ACTION
+1,Non covered service,BH,,,IP,GBD,,ACMP,Enable
+2,Pre-Existing condition,,BH,IP,,,GBD,ACMGBD,Disable
+3,Admin-TAT,BH,,OP,,CAGBD,,BOTH,Enable
+4,Benefit exhaust,,BH,,OP,,CAGBD,ACMP,Enable
+5,Cosmetic,BH,SA,IP,OP,Medicaid,Medicare,ACMP,Disable
+6,Delay in Service,PSY,,,,,,ACMPGBD,Disable
+7,Experimental,,SA,,,,,ACMPGBD,Enable
+8,Grouper Code,,,IP,,,,BOTH,Enable
+8,Insufficient Medical Information,,,,IP,,,BOTH,Enable
+9,Late Notification,,,,,Medicaid,,ACMP,Disable
+10,Not Medically Necessary,,,,,,Medicare,ACMP,Disable
+11,Out of Network,,,,,,,ACMP,Disable
